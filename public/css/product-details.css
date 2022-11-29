@@ -1,0 +1,104 @@
+
+
+body {
+    width: 100%;
+    background-image: url("/storage/image/background.jpg");
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--Color2);
+    background-color: var(--Color3);
+    box-shadow: 5px 5px 5px var(--Color2);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.all-box-id {
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv-id {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 50px;
+    border: 3px solid var(--Color2);
+    box-shadow: 10px 10px 5px var(--Color2);
+    backdrop-filter: blur(5px);
+}
+
+.maindiv-top1 {
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.maindiv-top2 {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid var(--Color2);
+
+}
+
+.maindiv-id1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 65vh;
+}
+
+.maindiv-id2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 65vh;
+    border-left: 3px solid var(--Color2);
+}
+
+.img-id {
+    max-width:90%;
+    max-height:90%;
+    border-radius: 10px 100px / 120px;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+.form_id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc-id {
+    margin: 15px;
+}
+
+.qty-id {
+    text-align: center;
+    color: var(--Color2);
+    background-color: var(--Color3);
+    height: 25px;
+    border-radius: 50px;
+    border: 2px solid var(--Color2);
+    box-shadow: 5px 5px 5px var(--Color2);
+}
+
+.img_avis_id {
+    width: 30%;
+}
+
+input[type=checkbox] {
+    transform: scale(150%);
+    padding: 10px;
+    margin: 5px;
+}

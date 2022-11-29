@@ -1,0 +1,162 @@
+:root {
+    --BackgroundColor: #60CCEC;
+    --ButtonColor: #A1C740;
+    --Color1: #E75C38;
+    --Color2: #FB7A25;
+    --Color3: #720019;
+    --Color4: #FEE552;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*border: none;*/
+    color: black;
+
+}
+
+body {
+    background-image: url("../storage/image/background-site.webp");
+
+
+}
+
+.contain_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    border: 5px solid;
+    box-sizing: border-box;
+}
+
+#name{
+color: #e97562;
+}
+
+#name:hover{
+
+}
+
+#bloc_home {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title{
+position: absolute;
+    top: 150px;
+    left: 155px;
+
+}
+
+.myButton2 {
+    box-shadow: 7px 0 11px -3px #464646;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    width: 56vh;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    Background: none;
+
+}
+
+.bnt-travel{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* Navbar Accueil*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+
+.lst-nav {
+    position: relative;
+    top: 46px;
+}
+
+.lst-nav li {
+    list-style: none;
+    text-align: center;
+}
+
+.lst-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 5px 20px;
+    display: inline-flex;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+/*.lst-nav:hover li a {*/
+/*    color: #0002;*/
+/*}*/
+
+.lst-nav li:hover a {
+    color: #ffffff;
+}
+
+
+.lst-nav li a:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 500px;
+    transition: letter-spacing 0.5s, left 0.5s;
+}
+
+.lst-nav li a:hover:before {
+    content: attr(data-text);
+    opacity: 1;
+    left: 50%;
+    letter-spacing: 10px;
+    width: 1800px;
+    height: 1800px;
+}
+
+.lst-nav li:nth-child(6n+1) a:before {
+    background: #3f5efb;
+    opacity: 0.8;
+}
+
+.lst-nav li:nth-child(6n+2) a:before {
+    background: #fc466b;
+    opacity: 0.8;
+}
+
+.lst-nav li:nth-child(6n+3) a:before {
+    background: #55efc4;
+    opacity: 0.8;
+}
+
+/*End Navbar Accueil*/
+

@@ -1,0 +1,14 @@
+:root {
+    --BackgroundColor : #60CCEC;
+    --ButtonColor: #FEE552;
+    --Color1 : #E75C38;
+    --Color2 : #720019;
+    --Color3 : #FB7A25;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
